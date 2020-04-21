@@ -1,1 +1,20 @@
-  
+/*
+
+
+
+/*--About Page--*/
+.about-container{
+    display: grid;
+    width: 850px;
+    height: 700px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 8fr 2fr;
+    grid-gap: 1rem;
+    grid-template-areas:
+        "title title title"
+        "about-paraOne about-paraOne pic1"
+        "about-paraTwo about-paraTwo about-paraTwo"
+        "about-paraThree about-paraThree about-paraThree"
+        "footer  footer    footer"
+}
+
