@@ -6,7 +6,6 @@ function Header(props) {
     <div id='sidebar-container'>
       <div id="name">
         <h1>G.J. Critchlow - Full Stack Web Developer</h1>
-        
       </div>
       <div id="sidebar-nav"> 
         <Link to={'/'}>Home</Link>
