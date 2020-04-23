@@ -104,3 +104,30 @@ padding: 6px;
         "about-paraThree about-paraThree about-paraThree"
 }
 
+#title{
+    grid-area: title;
+
+}
+
+#about-paraOne{
+    grid-area: about-paraOne;
+
+}
+
+#pic1{
+    grid-area: pic1;
+
+}
+
+#about-paraTwo{
+    grid-area: about-paraTwo;
+
+}
+
+#about-img-block{
+    grid-area: about-img-block;
+    
+}
+
+
+
