@@ -1,6 +1,92 @@
-/*
 
+/*----Header----*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 
+.header-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+border: 2px solid lightgrey;
+border-radius: 8px;
+background-color: rgb(19,43,100);
+color: lightgrey;
+padding: 6px;
+
+}
+
+#name{
+    font-family: 'Noto Serif', serif;
+
+}
+
+#page-nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Noto Serif', serif;
+    font-size: xx-large;
+    padding-right: 6px;
+}
+
+#head-links{
+    text-decoration: none;
+    color: lightgrey;
+}
+
+/*-----Home Page------*/
+.home-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: 'Noto Serif', serif;
+    background-image: linear-gradient(rgb(19,43,100), lightgrey, white);
+    border-radius: 8px;
+    padding: 6px;
+}
+
+#blurb{
+    color: lightgrey;
+}
+
+#profPic{
+    border-radius: 8px;
+}
+
+#name, #email {
+    width: 13vw;
+    min-width: 108px;
+    padding-right: 0;
+}
+
+.info-input {
+    background-color: rgb(236, 236, 236);
+}
+
+#name-email {
+    display: flex;
+    justify-content: space-between;
+    width: 27.5vw;
+    min-width: 220px;
+    margin-left: 1vw;
+}
+
+#message-container {
+    margin-top: 10px;
+    margin-left: 1vw;
+    width: 27.5vw;
+}
+
+#message {
+    font-family: Oxanium;
+    width: calc(27.5vw - 6px);
+    min-width: 220px;
+    height: 100px;
+}
+
+.button-bar {
+    margin-bottom: 5vh;
+}
 
 /*--About Page--*/
 .about-container{
@@ -8,13 +94,13 @@
     width: 850px;
     height: 700px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 2fr 8fr 2fr;
+    grid-template-rows: 2fr 4fr 4fr 4fr 2fr;
     grid-gap: 1rem;
     grid-template-areas:
         "title title title"
         "about-paraOne about-paraOne pic1"
         "about-paraTwo about-paraTwo about-paraTwo"
+        "about-img block about-img block about-img block"
         "about-paraThree about-paraThree about-paraThree"
-        "footer  footer    footer"
 }
 

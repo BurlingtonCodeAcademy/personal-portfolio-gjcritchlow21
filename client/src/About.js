@@ -23,13 +23,7 @@ function About(props) {
         <img id="probowl" src={ProBowl}></img>
         <img id="percy" src={PercyOne}></img>
         <img id="beast" src={codeBeast}></img>
-
       </div>
-      <div id="about-paraThree">
-        <p></p>
-      </div>
-
-
     </div>
   )
 }

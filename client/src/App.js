@@ -4,6 +4,8 @@ import Header from './Header'
 import About from './About'
 import Portfolio from './Portfolio'
 import { Switch, Route } from 'react-router-dom'
+import profPic from './images/linkedin.png'
+
 
 function App() {
   return (
@@ -21,10 +23,31 @@ function App() {
 
 function Home(props) {
   return (
-    <div className="App">
-      <h1>Hello from the home page!</h1>
+    <div className="home-container">
+      <div id="homeTop-wrapper">
+        <div id='blurb'>
+          <h1>A native Vermonter trying to make a difference in the world through programming</h1>
+        </div>
+        <div id='image-wrapper'>
+          <img id="profPic" src={profPic}></img>
+        </div>
+      </div>
+      <div id="contact-wrapper">
+        <div id='name-email'>
+          <input id='name' class='info-input' type='text' placeholder='name' />
+          <input id='email' class='info-input' type='text' placeholder='email' />
+        </div>
+        <div id='message-container'>
+          <textarea id='message' class='info-input' placeholder='message'></textarea>
+        </div>
+        <div class='button-bar'>
+          <div class='send-button button'>
+            <p class='btn-text'>SEND MESSAGE</p>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
 
-export default App;
+export default App; 
