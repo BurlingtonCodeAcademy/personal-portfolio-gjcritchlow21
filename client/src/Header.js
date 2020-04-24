@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Header(props) {
   return (
     <div className='header-container'>
-      <div id="name">
+      <div id="name-header">
         <h1>G.J. Critchlow | Full Stack Web Developer</h1>
       </div>
       <div id="page-nav"> 

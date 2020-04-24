@@ -1,29 +1,33 @@
 
-/*----Header----*/
+/*-------------------------Fonts---------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 
+/*------------------------Header------------------------*/
 .header-container{
 display: flex;
 justify-content: space-between;
-align-items: center;
+align-content: center;
 border: 2px solid lightgrey;
 border-radius: 8px;
 background-color: rgb(19,43,100);
 color: lightgrey;
 padding: 6px;
-
+width: 99%;
+height: 75px;
+font-family: 'Noto Serif', serif;
 }
 
-#name{
-    font-family: 'Noto Serif', serif;
-
+#name-header{
+    display:flex;
+    justify-content: flex-start;
 }
 
 #page-nav{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    font-family: 'Noto Serif', serif;
+
     font-size: xx-large;
     padding-right: 6px;
 }
@@ -33,30 +37,45 @@ padding: 6px;
     color: lightgrey;
 }
 
-/*-----Home Page------*/
+/*-----------------------------------Home Page-----------------------------------*/
 .home-container{
     display: flex;
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
-    font-family: 'Noto Serif', serif;
+    font-family: 'Merriweather', serif;
     background-image: linear-gradient(rgb(19,43,100), lightgrey, white);
     border-radius: 8px;
     padding: 6px;
+    width: 99%;
+    height: 100;
 }
 
 #blurb{
     color: lightgrey;
 }
 
-#profPic{
+#beast{
+    width: 30%;
+    height: 65%;
     border-radius: 8px;
+}
+
+#allContacts{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#contactMe-container{
+    margin-top: 6px;
 }
 
 #name, #email {
     width: 13vw;
     min-width: 108px;
     padding-right: 0;
+    font-family: 'Merriweather', serif;
 }
 
 .info-input {
@@ -78,7 +97,7 @@ padding: 6px;
 }
 
 #message {
-    font-family: Oxanium;
+    font-family: 'Merriweather', serif;
     width: calc(27.5vw - 6px);
     min-width: 220px;
     height: 100px;
@@ -88,11 +107,29 @@ padding: 6px;
     margin-bottom: 5vh;
 }
 
-/*--About Page--*/
+/*-----------------------------PortFolio Page Links------------------------------*/ 
+.portLink-wrapper{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: 'Merriweather', serif;
+    background-image: linear-gradient(rgb(19,43,100), lightgrey, white);
+    border-radius: 8px;
+    padding: 6px;
+    width: 99%;
+    height: 100;
+
+}
+
+
+/*-----------------------------------About Page----------------------------------*/
 .about-container{
     display: grid;
-    width: 850px;
-    height: 700px;
+    width: 100%;
+    border-radius: 8px;
+    font-family: 'Merriweather', serif;
+    background-image: linear-gradient(rgb(19,43,100), lightgrey, white);
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 2fr 4fr 4fr 4fr 2fr;
     grid-gap: 1rem;
@@ -101,22 +138,56 @@ padding: 6px;
         "about-paraOne about-paraOne pic1"
         "about-paraTwo about-paraTwo about-paraTwo"
         "about-img block about-img block about-img block"
-        "about-paraThree about-paraThree about-paraThree"
+        
+    
+}
+
+#about-container{
+    
 }
 
 #title{
     grid-area: title;
+    display: flex;
+    border: 2px;
 
 }
 
 #about-paraOne{
     grid-area: about-paraOne;
+    display: flex;
 
 }
 
 #pic1{
     grid-area: pic1;
+    display: flex;
 
+}
+
+#kayak{
+    width: 25%;
+    height: 25%;
+
+}
+
+#about-img-block{
+    grid-area: about-img-block;
+
+}
+
+#probowl{
+    width: 30%;
+    height: 65%;
+}
+
+#percy{
+    width: 30%;
+    height: 65%;;
+}
+#beer{
+    width: 30%;
+    height: 65%;
 }
 
 #about-paraTwo{
@@ -124,10 +195,6 @@ padding: 6px;
 
 }
 
-#about-img-block{
-    grid-area: about-img-block;
-    
-}
 
 
 

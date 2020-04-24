@@ -4,6 +4,7 @@ import Header from './Header'
 import About from './About'
 import Portfolio from './Portfolio'
 import { Switch, Route } from 'react-router-dom'
+import codeBeast from './images/codebeasts.png'
 import profPic from './images/linkedin.png'
 
 
@@ -29,20 +30,26 @@ function Home(props) {
           <h1>A native Vermonter trying to make a difference in the world through programming</h1>
         </div>
         <div id='image-wrapper'>
-          <img id="profPic" src={profPic}></img>
+          <img id="beast" src={codeBeast}></img>
         </div>
       </div>
-      <div id="contact-wrapper">
-        <div id='name-email'>
-          <input id='name' class='info-input' type='text' placeholder='name' />
-          <input id='email' class='info-input' type='text' placeholder='email' />
+      <div id="allContacts">
+        <div id="contactMe-container">
+          <h2>Please Contact Me</h2>
+          <h4>GJCritchlow21@gmail.com</h4>
         </div>
-        <div id='message-container'>
-          <textarea id='message' class='info-input' placeholder='message'></textarea>
-        </div>
-        <div class='button-bar'>
-          <div class='send-button button'>
-            <p class='btn-text'>SEND MESSAGE</p>
+        <div id="contact-wrapper">
+          <div id='name-email'>
+            <input id='name' class='info-input' type='text' placeholder='Name' />
+            <input id='email' class='info-input' type='text' placeholder='Email' />
+          </div>
+          <div id='message-container'>
+            <textarea id='message' class='info-input' placeholder='Message'></textarea>
+          </div>
+          <div class='button-bar'>
+            <div class='send-button button'>
+              <p class='btn-text'>SEND MESSAGE</p>
+            </div>
           </div>
         </div>
       </div>
