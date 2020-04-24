@@ -69,6 +69,7 @@ font-family: 'Noto Serif', serif;
 
 #contactMe-container{
     margin-top: 6px;
+    color: rgb(19,43,100) 
 }
 
 #name, #email {
@@ -122,6 +123,13 @@ font-family: 'Noto Serif', serif;
 
 }
 
+#portLink-container{
+    color: lightgrey;
+}
+
+#link-Linkedin{
+    color: rgb(19,43,100);
+}
 
 /*-----------------------------------About Page----------------------------------*/
 #about-container{

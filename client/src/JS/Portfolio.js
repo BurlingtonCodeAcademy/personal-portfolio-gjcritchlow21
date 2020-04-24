@@ -10,7 +10,7 @@ function Portfolio(props) {
   return (
     <div className="portLink-wrapper">
       <div id="portLink-container">
-        <h1>Please checkout me out through these links:</h1>
+        <h1>Please check me out:</h1>
         <div id="link-gitHub">
           <h3>GitHub</h3>
           <a href="https://github.com/gjcritchlow21">
