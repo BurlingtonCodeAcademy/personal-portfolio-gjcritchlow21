@@ -64,7 +64,7 @@ font-family: 'Noto Serif', serif;
 #allContacts{
     display: flex;
     flex-direction: column;
-    
+
 }
 
 #contactMe-container{
@@ -124,77 +124,62 @@ font-family: 'Noto Serif', serif;
 
 
 /*-----------------------------------About Page----------------------------------*/
-.about-container{
-    display: grid;
-    width: 100%;
-    border-radius: 8px;
-    font-family: 'Merriweather', serif;
-    background-image: linear-gradient(rgb(19,43,100), lightgrey, white);
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 2fr 4fr 4fr 4fr 2fr;
-    grid-gap: 1rem;
-    grid-template-areas:
-        "title title title"
-        "about-paraOne about-paraOne pic1"
-        "about-paraTwo about-paraTwo about-paraTwo"
-        "about-img block about-img block about-img block"
-        
-    
-}
-
 #about-container{
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Merriweather', serif;
+    color: lightgrey;
+    background-image: linear-gradient(rgb(19,43,100), lightgrey, white);
+    border-radius: 8px;
 }
 
 #title{
-    grid-area: title;
-    display: flex;
-    border: 2px;
-
+    font-size: 2vw;
 }
 
-#about-paraOne{
-    grid-area: about-paraOne;
+#wrapperOne{
     display: flex;
-
-}
-
-#pic1{
-    grid-area: pic1;
-    display: flex;
-
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    color: rgb(19,43,100);
 }
 
 #kayak{
-    width: 25%;
-    height: 25%;
+    height: 55vh;
+}
 
+#about-paraOne{
+    width: 40vw;
+    font-size: 1.5vw;
 }
 
 #about-img-block{
-    grid-area: about-img-block;
-
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    
 }
 
 #probowl{
-    width: 30%;
-    height: 65%;
+    height: 50vh;
 }
 
 #percy{
-    width: 30%;
-    height: 65%;;
+    height: 50vh;
 }
+
 #beer{
-    width: 30%;
-    height: 65%;
+    height: 50vh;
 }
 
 #about-paraTwo{
-    grid-area: about-paraTwo;
-
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    color: rgb(19,43,100);
+    font-size: 1.5vw;
+    padding-top: 30px;
 }
-
-
-
-

@@ -1,6 +1,8 @@
 import React from 'react'
-import GitHubLogo from './images/gj-github.png'
-import LinkedInLogo from './images/gj-linkden.png'
+import GitHubLogo from '../images/gj-github1.png'
+import LinkedInLogo from '../images/gj-linkden1.png'
+
+
 
 function Portfolio(props) {
   return (
@@ -9,13 +11,15 @@ function Portfolio(props) {
         <h1>Please checkout me out through these links:</h1>
         <div id="link-gitHub">
           <h3>GitHub</h3>
-          <button id="gitHub-button">GitHub</button>
-          <img src={GitHubLogo}></img>
+          <a href="https://github.com/gjcritchlow21">
+            <img src={GitHubLogo}></img>
+          </a>
         </div>
         <div id="link-Linkedin">
           <h3>LinkedIn</h3>
-          <button id="linkedIn-button">LinkedIn</button>
-          <img src={LinkedInLogo}></img>
+          <a href="https://www.linkedin.com/in/gjcritchlow32176/">
+            <img src={LinkedInLogo}></img>
+          </a>
         </div>
       </div>
     </div>
