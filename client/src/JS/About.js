@@ -1,9 +1,12 @@
+
+//import list
 import React from 'react'
 import KayakImg from '../images/gjKayak.jpg'
 import PercyOne from '../images/percyRaincoat.jpg';
 import ProBowl from '../images/gjProbowl.jpg';
 import beer from '../images/beer.jpg'
-
+ 
+//About page
 function About(props) {
   return (
     <div className='about-container' id='about-container'>

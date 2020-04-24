@@ -1,9 +1,11 @@
+
+//imports
 import React from 'react'
 import GitHubLogo from '../images/gj-github1.png'
 import LinkedInLogo from '../images/gj-linkden1.png'
 
 
-
+//portfolio with links
 function Portfolio(props) {
   return (
     <div className="portLink-wrapper">

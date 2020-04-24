@@ -1,3 +1,5 @@
+//imports
+
 import React from 'react';
 import '../App.css';
 import Header from './Header'
@@ -6,7 +8,7 @@ import Portfolio from './Portfolio'
 import { Switch, Route } from 'react-router-dom'
 import codeBeast from '../images/codebeasts.png'
 
-
+//react router
 function App() {
   return (
     <div>
@@ -20,7 +22,7 @@ function App() {
 
   );
 }
-
+//home page
 function Home(props) {
   return (
     <div className="home-container">
@@ -45,9 +47,9 @@ function Home(props) {
           <div id='message-container'>
             <textarea id='message' class='info-input' placeholder='Message'></textarea>
           </div>
-          <div class='button-bar'>
-            <div class='send-button button'>
-              <p class='btn-text'>SEND MESSAGE</p>
+          <div id='button-bar'>
+            <div id='send-button button'>
+              <button id='btn-text'>SEND MESSAGE(eventually)</button>
             </div>
           </div>
         </div>

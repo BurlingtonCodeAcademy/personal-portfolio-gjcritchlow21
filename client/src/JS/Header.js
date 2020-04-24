@@ -1,6 +1,9 @@
+
+//imports
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+//header with navigation through router
 function Header(props) {
   return (
     <div className='header-container'>

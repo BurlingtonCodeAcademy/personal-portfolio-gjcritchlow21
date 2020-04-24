@@ -139,6 +139,7 @@ font-family: 'Noto Serif', serif;
     font-size: 2vw;
 }
 
+/*----Paragraph and Image Block----*/
 #wrapperOne{
     display: flex;
     justify-content: space-around;
@@ -155,7 +156,7 @@ font-family: 'Noto Serif', serif;
     width: 40vw;
     font-size: 1.5vw;
 }
-
+/*----Image Block----*/
 #about-img-block{
     display: flex;
     width: 100vw;
@@ -174,7 +175,7 @@ font-family: 'Noto Serif', serif;
 #beer{
     height: 50vh;
 }
-
+/*----Paragraph Block-----*/
 #about-paraTwo{
     display: flex;
     justify-content: center;
